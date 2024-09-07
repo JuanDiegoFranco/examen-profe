@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conctatenos</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./conctatenos.css">
+</head>
+<body>
+   
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+
+                <img src="./IMG/logo.png" alt="">
+            </a>
+        </div>
+        <div class="titulo">
+            <h1>CONCTATANOS CON FACILIDAD</h1>
+        </div>
+    </header>
+
+
+
+<!-- BARRA DE NAVEGACION -->
+<br>
+<br>
+<nav>
+
+    <ul>
+        <li><a href="./index.html">Principal</a></li>
+    </ul>
+</nav>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+    <form action="submit" method="post">
+        <label for="txtName" id="nombre">Nombre </label>
+        <input type="text" required minlength="5" maxlength="20" placeholder="Ingrese Nombre"><br><br>
+
+        <label for="txtNit" id="txtNit">Apellido</label>
+        <input type="number" required min="9" max="12" placeholder="Ingrese Apellido"><br><br>
+
+        <label for="txtContacto" id="txtNit">Numero de celular</label>
+        <input type="text" id="telefono" name="telefono" pattern="[0-9]{3,15}" required placeholder="Ingrese Numero "><br><br>
+
+        <label for="txtEmail" id="txtNit">Email:</label>
+        <input type="email" id="email" name="email" required  multiple placeholder="Ingrese su email"><br><br>
+
+        <label for="txt" id="txt">Ciudad:</label>
+
+        <select id="origen" name="origen" required placeholder="seleccione el pais De Origen">
+            <option value="Medellin">Colombia</option>
+            <option value="Ciudad-mexico">Mexico</option>
+            <option value="Caracas">Venezuela</option>
+        </select><br><br>
+        <center>
+
+            <button type="submit">Enviar</button>
+        </center>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
